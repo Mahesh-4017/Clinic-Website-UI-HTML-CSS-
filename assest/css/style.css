@@ -1,0 +1,552 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.NAV-BAR-SLIDE {
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+
+.NAV-BAR-SLIDE h2 {
+    font-size: 35px;
+}
+
+.NAV-BAR-SLIDE a {
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    padding-bottom: 4px;
+}
+
+.NAV-BAR-SLIDE ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.NAV-BAR-SLIDE ul {
+    padding: 18px 0px 0px 0px;
+}
+
+.NAV-BAR-SLIDE ul li a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.marginDiv {
+    margin: 10% 0%;
+}
+
+.Section-Healthcare h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(17, 35, 69);
+}
+
+.Section-Healthcare h1 a {
+    border-bottom: 3px solid rgb(13, 109, 252);
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.GRAYCOLOR {
+    color: rgb(95, 99, 107);
+}
+
+.BOX-IMAGE-1 {
+    background-color: white;
+    padding: 4px 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.calender-icon {
+    background-color: rgb(225, 231, 245);
+    color: rgb(13, 109, 252);
+}
+
+.NUMBER-PLUS h1 {
+    color: rgb(13, 109, 252);
+    font-size: 30px;
+}
+
+.Book-BTN button {
+    background-color: rgb(13, 109, 252);
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid rgb(13, 109, 252);
+}
+
+.Watch-BTN button {
+    background-color: white;
+    color: rgb(13, 109, 252);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid rgb(13, 109, 252);
+}
+
+.star-icon {
+    color: rgb(255, 193, 8);
+}
+
+.BOX-IMAGE-2 {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Contact-input {
+    background-color: rgb(245, 247, 250);
+    border: 1px solid rgb(13, 109, 252);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px 50px 0px 20px;
+}
+
+.telephone-icon i {
+    background-color: rgb(13, 109, 252);
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.patient-numbers h1 {
+    font-weight: 340;
+    color: rgb(13, 109, 252);
+}
+
+.patient-numbers {
+    margin-top: 30px;
+}
+
+.section-patient {
+    margin: 120px 10px;
+}
+
+.box-image-3 {
+    background-color: rgb(13, 109, 252);
+    border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    right: -3% !important;
+}
+
+.box-image-3 p {
+    font-size: 10px;
+}
+
+.arrow-back-button button {
+    border-style: none;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.box-image-4 {
+    background-color: rgb(250, 251, 252);
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1;
+    opacity: 100;
+    box-shadow: 0 15px 40px color-mix(in srgb, #3c4049, transparent 90%);
+    border: 1px solid color-mix(in srgb, #3c4049, transparent 92%);
+    left: -3% !important;
+    bottom: 10% !important;
+}
+
+.box-image-4 i {
+    color: rgb(13, 109, 252);
+    background-color: rgb(230, 237, 250);
+    padding: 10px 15px;
+    border-radius: 100%;
+    font-size: 22px;
+
+}
+
+.GRAYBACKGROUND {
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+}
+
+.BLUEBACKGROUND {
+    width: 60%;
+    height: 3px;
+    margin: 0px 20%;
+}
+
+.BLUE-GRAY-LINE {
+    margin: 10px 40%;
+}
+
+.special-line-card {
+    background-color: rgb(230, 237, 250);
+    color: rgb(13, 109, 252);
+    padding: 5px 10px;
+    margin-right: 70%;
+    margin-top: 10px;
+}
+
+.list-24 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-24 ul li i {
+    color: rgb(13, 109, 252);
+    font-size: 17px;
+}
+
+.list-24 ul li {
+    font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+.card-of-cadio {
+    z-index: 100;
+    opacity: 1;
+    box-shadow: 0px 0px 6px rgb(235, 233, 233);
+    border-radius: 25px;
+}
+
+.link-explore a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.link-explore a:hover {
+    padding: 0px 15px;
+    transition-duration: 1s;
+}
+
+.link-explore i {
+    color: rgb(13, 109, 252);
+    font-size: 17px;
+    padding: 50px 8px;
+}
+
+.img-cardio img {
+    border-radius: 0px 0px 25px 25px;
+}
+
+.circle-box {
+    background-color: white;
+    border-radius: 80%;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.circle-box i {
+    font-size: 18px;
+    padding: 0px 0px 0px 11px;
+    color: rgb(13, 109, 252);
+}
+
+.shield-icon-div i {
+    background-color: rgb(13, 109, 252);
+    color: white;
+    padding: 10px 16px;
+    font-size: 40px;
+    border-radius: 80%;
+
+}
+
+.list-sports-arrow li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 20px;
+}
+
+.list-sports-arrow li i {
+    color: rgb(13, 109, 252);
+    margin-left: 20px;
+}
+
+.card-of-sports {
+    box-shadow: 0px 0px 1px rgb(112, 109, 109);
+    padding: 40px 0px;
+    border-radius: 25px;
+}
+
+.card-of-sports:hover {
+    border: 1px solid rgb(13, 109, 252);
+    transition-duration: 0.5s;
+    transform: scaleY(1);
+}
+
+.blue-Emergency-box {
+    background-color: rgb(13, 109, 252);
+    color: white;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.white-emergency-number {
+    background-color: white;
+    color: rgb(13, 109, 252);
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.img-blue-grident-clr {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, color-mix(in srgb, #175cdd, transparent 20%) 0%, transparent 70%);
+}
+
+.heart-plus-emergency-box {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    font-size: 15px !important;
+}
+
+.heart-plus-emergency-box i {
+    color: #175cdd;
+    font-size: 15px;
+}
+
+.WORDSPACING {
+    letter-spacing: 1px;
+}
+
+.capsul-div {
+    margin: 20px !important;
+}
+
+.capsul-div i {
+    font-size: 22px !important;
+    color: #175cdd;
+    background-color: rgb(237, 242, 252);
+    padding: 10px 12px;
+    border-radius: 100%;
+}
+
+.explore-line-link {
+    color: #175cdd;
+}
+
+.explore-line-link a:hover {
+    color: #0c0c0c;
+}
+
+
+.line {
+    width: 150px;
+    background-color: #175cdd;
+    height: 1px;
+}
+
+.line:hover {
+    width: 180px;
+    background-color: #175cdd;
+    height: 2px;
+}
+
+.circle-care-div img {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.INPUT-DIV-DOCTOR {
+    background-color: white;
+    z-index: 1;
+    opacity: 1;
+    box-shadow: 0 20px 60px color-mix(in srgb, #3c4049, transparent 94%);
+    padding: 5px 0px;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+.NONE-BORDER-INPUT {
+    border: none;
+    outline: none;
+}
+
+
+.NONE-BORDER-INPUT:hover {
+    border: 1px solid white;
+    outline: none;
+}
+
+.NONE-BORDER-INPUT:active {
+    border: 1px solid white;
+    outline: none;
+}
+
+.SELECT-DROPDOWN select {
+    padding: 1px 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: none;
+    border: none;
+    outline: none;
+}
+
+.SELECT-DROPDOWN option {
+    color: #3c4049;
+}
+
+.Find-btn {
+    background-color: #175cdd;
+    color: aliceblue;
+}
+
+.Find-btn:hover {
+    box-shadow: 0px 0px 3px #175cdd;
+    margin-top: 5px;
+    transition-duration: 1s;
+    background-color: blue;
+}
+
+.icon-blue i{
+    color: #175cdd;
+}
+
+.icon-blue{
+    color: #52555c;
+}
+
+.Blue-blur-line{
+    background-color: rgb(230, 237, 250);
+    color: #175cdd;
+    padding: 7px 5px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Details-box{
+    background-color: white;
+    box-shadow: 0 20px 60px color-mix(in srgb, #3c4049, transparent 94%);
+}
+@media screen and (max-width: 1050px) {
+    .NAV-BAR-SLIDE ul {
+        padding: 18px 0px 0px 0px;
+    }
+
+    .NAV-BAR-SLIDE ul li {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .NAV-BAR-SLIDE h2 {
+        font-size: 25px;
+    }
+
+    .Section-Healthcare h1 {
+        font-size: 36px;
+        font-weight: 640;
+        line-height: 140%;
+    }
+
+    .marginDiv {
+        margin: 15% 0%;
+    }
+
+    .BOX-IMAGE-1 {
+        padding: 0px 10px;
+    }
+
+    .NUMBER-PLUS h1 {
+        font-size: 25px;
+        font-family: 1000;
+    }
+
+    .section-patient h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .patient-numbers h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .section-patient {
+        margin: 20px 10px;
+        text-align: center;
+    }
+
+    .box-image-4 {
+        left: -1% !important;
+        bottom: 30% !important;
+    }
+
+    .GRAYBACKGROUND {
+        width: 100%;
+        height: 1px;
+        background-color: gray;
+    }
+
+    .BLUEBACKGROUND {
+        width: 30%;
+        height: 2px;
+        margin: 0px 35%;
+    }
+
+    .BLUE-GRAY-LINE {
+        margin: 10px 30%;
+    }
+
+    .special-line-card {
+        display: none;
+    }
+
+    .blue-Emergency-box {
+        text-align: center;
+    }
+
+    .white-emergency-number {
+        margin: 0px 40px;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .circle-care-div img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        object-fit: cover;
+    }
+
+    .INPUT-DIV-DOCTOR {
+    margin: 0px 100px;
+}
+
+
+}
+
+@media screen and (max-width: 780px) {
+    .box-image-4 {
+        bottom: -15% !important;
+    }
+
+    .INPUT-DIV-DOCTOR {
+    margin: 0px 10px;
+}
+
+}
